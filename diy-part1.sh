@@ -15,5 +15,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/vernesong/OpenClash' >>feeds.conf.default
-echo 'src-git passwall https://github.com/jerrykuku/luci-app-argon-config' >>feeds.conf.default
+echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+echo 'src-git Argon https://github.com/jerrykuku/luci-app-argon-config' >>feeds.conf.default
